@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="12dp"
+    android:gravity="center_vertical">
+
+    <!-- Icône statut -->
+    <ImageView
+        android:id="@+id/ivStatus"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@android:drawable/presence_online"
+        android:contentDescription="@string/sensor_status_icon_desc" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp">
+
+        <!-- Nom du capteur -->
+        <TextView
+            android:id="@+id/tvSensorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_name_default"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <!-- Message de statut -->
+        <TextView
+            android:id="@+id/tvSensorStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sensor_status_available"
+            android:textSize="13sp"
+            android:textColor="#555555" />
+
+        <!-- Fonctionnalités affectées (visible si indisponible) -->
+        <TextView
+            android:id="@+id/tvAffectedFeatures"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="12sp"
+            android:textColor="#B00020"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</LinearLayout>

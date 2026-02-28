@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Detecteur</string>
+    <string name="title_sensor_detection">Détection des capteurs</string>
+    <string name="sensor_status_icon_desc">Statut du capteur</string>
+    <string name="sensor_name_default">Capteur</string>
+    <string name="sensor_status_available">Disponible ✔</string>
+</resources>
