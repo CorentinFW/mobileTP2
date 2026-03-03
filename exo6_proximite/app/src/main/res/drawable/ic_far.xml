@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icône "LOIN" : objet éloigné -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Fond vert -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M0,0 L100,0 L100,100 L0,100 Z" />
+
+    <!-- Coche / check mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:pathData="M20,50 L42,72 L80,28" />
+</vector>
+
