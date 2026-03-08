@@ -1,0 +1,16 @@
+com.example.accelerometre
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+id main
+id tvAccelValues
+layout activity_main
+mipmap ic_launcher
+mipmap ic_launcher_round
+string accelerometre_non_disponible
+string app_name
+style Base_Theme_Accelerometre
+style Theme_Accelerometre
+xml backup_rules
+xml data_extraction_rules
